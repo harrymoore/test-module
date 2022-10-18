@@ -1,0 +1,32 @@
+{
+  "evaluator": "and",
+  "condition": [
+    {
+      "evaluator": "or",
+      "condition": [
+        {
+          "evaluator": "uri-match",
+          "condition": "/projects/{projectId}/content/{qname}"
+        },
+        {
+          "evaluator": "uri-match",
+          "condition": "/projects/{projectId}/content"
+        }
+      ]
+    },
+    {
+      "evaluator": "current-user-has-team",
+      "condition": "academic-editors"
+    }
+  ],
+  "config": {
+
+    //to remove other quick link you can append the actions here in the list
+    "content-instances-list-item-actions": [
+      {
+        "key": "view-json",
+        "remove": true
+      }
+    ]
+  }
+}

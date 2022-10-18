@@ -1,0 +1,38 @@
+{
+    "evaluator": "document-has-type",
+    "condition": "type:imagelibraryfolder0",
+    "config": {
+        "documents-list-buttons": [{
+            "key": "new",
+            "buttons": [
+            {
+                "key": "new_document",
+                "title": "Create an Image"
+
+            },{
+                "key": "upload",
+                "remove": true
+            },            
+            {
+                "key": "upload-imageAltText",
+                "title": "Upload Image Alt Text",
+                "iconClass": "fa fa-book",
+                "action": "upload-image-alt-text"
+            },
+            {
+                "key": "upload-bulk-image",
+                "title": "Bulk Upload Images",
+                 "iconClass": "fa fa-upload",
+                "action": "upload-bulk-image"
+            }
+        ]
+        },
+        {
+            "key": "multi-documents-action-selector",
+            "buttons": [{
+                "key": "start-workflow",
+                "remove": true
+            }]
+        }]
+    }
+}

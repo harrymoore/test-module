@@ -1,0 +1,9 @@
+{
+  "evaluator": "uri-match",
+  "condition": "/projects/{projectId}/content",
+  "config": {
+    "content-types": {
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "evaluator": "context-document",
+  "config": {
+    "document-properties": {
+      "showTranslationPicker": false,
+      "lifeCycle": false
+    }
+  }
+}

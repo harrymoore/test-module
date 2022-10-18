@@ -17,7 +17,7 @@ define(function(require) {
     require("./actions/create-journal/get-oversized-image-details.js");
     require("./actions/create-journal/upload-image-alt-text.js");
 
-    // // new pages
+    // new pages
     require("./gadgets/all-journals-list.js");
     require("./gadgets/content-instances-for-oup-editors-team.js");
     require("./gadgets/journal-site-folder.js");

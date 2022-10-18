@@ -1,0 +1,20 @@
+{
+    "evaluator": "context-project",
+    "config": {
+        "project-context": {
+            "items": [
+                {
+                    "key": "project/content/heading",
+                    "items": [{
+                        "key": "project/content",
+                        "title": "Content by Type"
+                    },
+                    {
+                        "key": "project/documents",
+                        "title": "Browse all Content"
+                    }]
+                }
+            ]
+        }
+    }
+}

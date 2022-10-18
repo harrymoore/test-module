@@ -1,0 +1,23 @@
+{
+    "evaluator": "and",
+    "condition": [{
+        "evaluator": "current-user-has-team",
+        "condition": "academic-editors"
+    }, {
+        "evaluator": "context-document-has-type",
+        "condition": "type:documentlibraryfolder0"
+    }],
+    "config": {
+        "content-types": {
+            "remove" : true,
+            "items": [{
+                "key": "n:node",
+                "title": "Node"
+            }]
+        },
+        "new-folder-types": [{
+            "qname": "type:documentlibraryfolder0",
+            "title": "Document Library Folder"
+        }]
+    }
+}

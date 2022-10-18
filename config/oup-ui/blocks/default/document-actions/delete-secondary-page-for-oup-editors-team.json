@@ -1,0 +1,25 @@
+{
+    "evaluator": "or",
+    "condition": [{
+            "evaluator": "context-document-has-type",
+            "condition": "type:secondarypage0"
+        },
+        {
+            "evaluator": "context-document-has-type",
+            "condition": "type:genericform"
+        },
+        {
+            "evaluator":"context-document-has-type",
+            "condition":"type:secondarypagewithrows0"
+        }
+    ],
+    "config": {
+        "document-actions": [{
+            "key": "delete-secondary-page",
+            "title": "Delete Secondary Page",
+            "iconClass": "fa fa-book",
+            "action": "delete-secondaryPage"
+        }]
+    }
+}
+

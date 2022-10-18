@@ -1,0 +1,40 @@
+{
+    "evaluator": "and",
+    "condition": [
+
+        {
+            "evaluator": "current-user-has-team",
+            "condition": "academic-editors"
+        }, {
+            "evaluator": "not",
+            "condition":
+
+            {
+                "evaluator": "context-document-has-type",
+                "condition": "n:node"
+            }
+        }, {
+            "evaluator": "not",
+            "condition":
+
+            {
+                "evaluator": "context-document-has-type",
+                "condition": "type:image0"
+            }
+        }
+    ],
+    "config": {
+        "document-subcontext": {
+            "items": [{
+                "key": "document",
+                "items": [
+
+                    {
+                        "key": "document/attachments",
+                        "remove": true
+                    }
+                ]
+            }]
+        }
+    }
+}

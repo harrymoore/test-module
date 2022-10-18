@@ -1,0 +1,26 @@
+{
+    "evaluator": "document-has-type",
+    "condition": "type:containeritemsfolder0",
+    "config": {
+        "documents-list-buttons": [{
+            "key": "new",
+            "buttons": [{
+                "key": "upload",
+                "remove": true
+            },
+            {
+                "key": "new_text_document",
+                "remove": true
+            },
+            {
+                "key": "new_document",
+                "title": "Create a Content Item"
+            }]
+            },
+            {
+                "key": "view_rules",
+                "remove": true
+            },
+        ],
+    }
+}

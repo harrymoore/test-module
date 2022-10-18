@@ -1,0 +1,18 @@
+{
+    "evaluator": "context-project",
+    "config": {
+        "project-context": {
+            "items": [
+                {
+                    "key": "project/content/heading",
+                    "items": [{
+                        "key": "project/all-journals",
+                        "title": "All Journals",
+                        "uri": "#/projects/{projectId}/documents/dbe63c4c6ae89d4d4eff/browse",
+                        "iconClass": "fa fa-book"
+                    }]
+                }
+            ]
+        }
+    }
+}

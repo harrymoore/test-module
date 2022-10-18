@@ -1,0 +1,66 @@
+{
+    "evaluator": "and",
+    "condition": [{
+        "evaluator": "current-user-has-team",
+        "condition": "academic-editors"
+    }, {
+        "evaluator": "uri-starts-with",
+        "condition": "/projects/{projectId}"  
+    }],
+    "config": {
+        "header": {
+            "dropdowns": {
+                "help": {
+                    "key": "header/help",
+                    "title": "Help",
+                    "iconClass": "fa fa-question-circle",
+                    "items": [{
+                            "key": "header/help/custom1",
+                            "title": "User guide",
+                            "url": "https://oxforduniversitypress.sharepoint.com/:b:/r/sites/CloudCMSKeyUsers/Shared%20Documents/General/CCMS%20User%20Guide.pdf",
+                            "order": 1
+                        },
+                        {
+                            "key": "header/help/custom2",
+                            "title": "UX governance",
+                            "url": "http://gabdesign.oup.com/uxgovernance/",
+                            "order": 2
+                        },
+                        {
+                            "key": "header/help/custom4",
+                            "title": "Additional resources",
+                            "url": "https://share.oup.com/gab/marketing/SitePages/CloudCMS.aspx",
+                            "order": 3
+                        },
+                        {
+                            "key": "header/help/custom3",
+                            "title": "Contact support",
+                            "url": "http://wonderdesk.uk.oup.com/cgi-bin/wonderdesk.cgi",
+                            "order": 4
+                        },
+                       {
+                           "key": "header/help/read-documentation",
+                           "remove" : true
+                       },
+                       {
+                           "key": "header/help/watch-video",
+                           "remove" : true
+                       },
+                       {
+                           "key": "header/help/browse-developer-guides",
+                           "remove" : true
+                       },
+                       {
+                           "key": "header/help/manage-subscription",
+                           "remove" : true
+                       },
+                       {
+                           "key": "header/help/contact-support",
+                           "remove" : true
+                       }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "evaluator": "and",
+  "condition": [
+    {
+      "evaluator": "or",
+      "condition": [
+        {
+          "evaluator": "uri-match",
+          "condition": "/projects/{projectId}/content/{qname}"
+        },
+        {
+          "evaluator": "uri-match",
+          "condition": "/projects/{projectId}/content"
+        }
+      ]
+    },
+    {
+      "evaluator": "current-user-has-team",
+      "condition": "academic-editors"
+    }
+  ],
+  "config": {
+    "regions": {
+      "center": {
+        "type": "content-instances-for-oup-editors-team"
+      }
+    },
+
+    // hide create-button from oup-editor
+    "content-instances-buttons": [
+      {
+        "key": "create-content",
+        "remove": true
+      }
+    ]
+
+  }
+}

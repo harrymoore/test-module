@@ -1,0 +1,251 @@
+{
+    "evaluator": "and",
+    "condition": [{
+        "evaluator": "current-user-has-team",
+        "condition": "academic-editors"
+    }, {
+        "evaluator": "context-document-has-type",
+        "condition": "type:containeritemsfolder0"
+    }],
+    "config": {
+        "content-types": {
+            "remove" : true,
+            "items": [{
+                "key": "type:contentblock0",
+                "title": "Editable Content Panel"
+            }, {
+                "key": "custom:heropanel0",
+                "title": "Row for Hero Panels"
+            }, {
+                "key": "type:listingcontaine0",
+                "title": "Complex Manual Listing for Collection"
+            }, {
+                "key": "type:megarowcontaine0",
+                "title": "Mega Row"
+            }, {
+                "key": "type:newsitem0",
+                "title": "News Items"
+            }, {
+                "key": "type:podcastepisodeblock0",
+                "title": "Podcast Episode"
+            }, {
+                "key": "type:productcarouselrowcont",
+                "title": "Carousel"
+            }, {
+                "key": "type:relatedtitlescontentblock0",
+                "title": "Related Titles Content Block"
+            }, {
+                "key": "type:relatedtitlesrowcontainer0",
+                "title": "Row for Related Titles"
+            }, {
+                "key": "type:rowcontainerfordynamicwidgets0",
+                "title": "Row for Simple Automated Content Listings"
+            }, {
+                "key": "type:rowcontaine0",
+                "title": "Row for Editable Panels"
+            }, {
+                "key": "type:rssRightNav",
+                "title": "Blog Feed"
+            }, {
+                "key": "type:twittercontentbloc0",
+                "title": "Twitter Content Block"
+            }, {
+                "key": "type:usefullink0",
+                "title": "Useful Links"
+            }, {
+                "key": "type:browsecontrol0",
+                "title": "Browse Controls"
+            }, {
+                "key": "type:contact0",
+                "title": "Contact"
+            }, {
+                "key": "type:contactsContainer0",
+                "title": "Contacts Container"
+            }, {
+                "key": "type:rowcontainerfordynamicwidgetsAdvanced0",
+                "title": "Row for Complex Content Listings"
+            }, {
+                "key": "type:featuredarticle0",
+                "title": "Journal Article"
+            }, {
+                "key": "type:additionalhtm0",
+                "title": "Secondary Page WYSIWYG"
+            }, {
+                "key": "type:videoitem",
+                "title": "Video Item"
+            }, {
+                "key": "type:complexmanuallistingforhomepage0",
+                "title": "Complex Manual Listing for Home Page"
+            }, {
+                "key": "type:rowforpodcast0",
+                "title": "Row for Podcast"
+            }, {
+                "key": "type:rightNavContentGrouping",
+                "title": "Right Nav Content Grouping"
+            },
+            {
+                "key": "custom:blogarticle0",
+                "title": "Blog Article"
+            },
+            {
+                "key": "custom:blogsContainer0",
+                "title": "Blog Articles Container"
+            },
+            {
+
+                "key": "custom:rowfortermsandconditions",
+                "title": "Row for Terms and Conditions"
+            },
+            {
+                "key": "type:headerfooterhtml0",
+                "title": "Header Footer HTML"
+            },
+            {
+                "key": "type:rowformixedcontent0",
+                "title": "Row for Mixed Content"
+            },
+            {
+                "key": "type:rowforpeople0",
+                "title": "Row for People"
+            },
+            {
+                "key": "type:peoplesection0",
+                "title": " People Section"
+            },
+            {
+                "key": "type:featuredtextrow0",
+                "title": "Featured Text Row"
+            },
+            {
+                "key": "type:partnerpressrow0",
+                "title": "Partner Press Row"
+            },
+            {
+                "key": "type:rowforinformation0",
+                "title": "Row for Information"
+            },
+            {
+                "key": "type:informationmenupage0",
+                "title": "Information Menu Page"
+            },
+            {
+                "key": "type:informationmenucard0",
+                "title": "Information Menu Page Cards"
+            },{
+                "key": "type:informationblankcard0",
+                "title": "Information Blank Card"             
+
+            },{
+                "key": "type:rowsinglevideoandtextrow0",
+                "title": "Single Video and Text Row"  
+            },
+            {
+                "key": "type:rowforsearch0",
+                "title": "Row For Search"    
+            },
+            {
+                "key": "type:rowforbrand0",
+                "title": "Row For Brand"            
+
+            },
+            {
+                "key": "type:relatedinformationwidget0",
+                "title": "Related Information Widget"            
+
+            },         {
+                "key": "type:multipleusefulink0",
+                "title": "Useful Multiple link"
+
+            },
+            {
+                "key":"type:contentlistingwithmetarow0",
+                "title":"Content listing with meta row"
+
+            },
+            {
+                "key":"type:bookitem0",
+                "title":"Book Item"
+
+            },
+            {
+                    "key":"type:bookpart0",
+                    "title":"Book Part Item"
+            },
+            {
+                "key":"type:audioitem0",
+                "title":"Audio Item"
+            },
+            {
+                "key":"type:bookchapter0",
+                "title":"Book Chapter"
+            },
+            {
+                "key":"type:imageitem0",
+                "title":"Image Item"
+            },
+            {
+                "key":"type:manualsimplelisting0",
+                "title":"Manual Simple Listing"
+            },
+            {
+                "key":"type:aboutcontentblock0",
+                "title":"About Content Block"
+            },{
+                "key":"type:itaproperties0",
+                "title":"Ita Properties"
+
+            }
+            ,
+            {
+                "key":"type:alchemerembedcontentpanel0",
+                "title":"Alchemer Embed Content Panel"
+            },
+            {
+                "key":"type:rowforblogfeed0",
+                "title":"Row for OUPBlog Feed"
+            },
+            {
+                "key":"custom:rowforstorycard",
+                "title":"Row for Story Card"
+            },{
+                "key":"custom:rowforadvertisingproductmenu",
+                "title":"Row for Advertising Product Menu"
+            },
+            {
+                "key": "custom:rowForSimpleCallToAction",
+                "title": "Row for Simple Call to Action"
+            },
+            {
+                "key": "custom:rowForMediaKitRates0",
+                "title": "Row for Media Kit Rates"
+            },
+            {
+                "key": "custom:rowForSecondaryContent",
+                "title": "Row for Secondary Content"
+            },
+            {
+                "key": "type:singlecolumnrowcontaine0",
+                "title": "Row for Single Video"
+            },
+            {
+                "key": "type:connectrowcontainer0",
+                "title": "Row for Connect"
+            },
+            {
+                "key": "type:connectcontentblock0",
+                "title": "Connect Content Block"
+            },
+            {
+                "key": "custom:rowForPublicationsGrid",
+                "title": "Row for Publications Grid"
+            }
+
+        ]
+
+        },
+        "new-folder-types": [{
+            "qname": "type:containeritemsfolder0",
+            "title": "Container Items Folder"
+        }]
+    }
+}
