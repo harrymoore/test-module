@@ -4,12 +4,16 @@
         "project-context": {
             "items": [
                 {
-                    "key": "project/content/heading",
+                    "key": "project",
                     "items": [{
-                        "key": "project/all-journals",
-                        "title": "All Journals",
-                        "uri": "#/projects/{projectId}/documents/0d5ccb4708223b441b17/browse",
-                        "iconClass": "fa fa-book"
+                        "key": "project",
+                        "items": [{
+                            "key": "project/all-journals",
+                            "title": "All Journals",
+                            "uri": "#/projects/{projectId}/documents/0d5ccb4708223b441b17/browse",
+                            "iconClass": "fa fa-book"
+                            }
+                        ]
                     }]
                 }
             ]
