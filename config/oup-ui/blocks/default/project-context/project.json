@@ -16,7 +16,12 @@
                                     "iconClass": "fa fa-book"
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "key": "content",
+                    "items": [
                         {
                             "key": "content",
                             "items": [
