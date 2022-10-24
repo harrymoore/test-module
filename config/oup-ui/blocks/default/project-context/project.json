@@ -4,22 +4,6 @@
         "project-context": {
             "items": [
                 {
-                    "key": "project",
-                    "items": [
-                        {
-                            "key": "project",
-                            "items": [
-                                {
-                                    "key": "project/all-journals",
-                                    "title": "All Journals",
-                                    "uri": "#/projects/{projectId}/branches/{branchId}/documents/0d5ccb4708223b441b17/browse",
-                                    "iconClass": "fa fa-book"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "key": "content",
                     "items": [
                         {
