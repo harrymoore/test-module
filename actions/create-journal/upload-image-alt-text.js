@@ -2,7 +2,8 @@ define(function(require, exports, module) {
     var Ratchet = require("ratchet/ratchet");
     var UI = require("ui");
     var $ = require("jquery");
-  
+    var oup_config = require("../oup-config.js");
+
     return Ratchet.Actions.register(
       "upload-image-alt-text",
       UI.AbstractIFrameAction.extend({
@@ -14,7 +15,8 @@ define(function(require, exports, module) {
   
           // the location of the "overlay app"
           config.src = "https://alb.primary.prod.gcms.the-infra.com/app/update-image-alt-text";
-  
+          config.src = oup_config.overlayBaseURL + "/app/update-image-alt-text";
+
           // specify iframe width and height
           config.iframeWidth = "100%";
           config.iframeHeight = "580px";

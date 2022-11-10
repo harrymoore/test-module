@@ -2,6 +2,7 @@ define(function(require, exports, module) {
   var Ratchet = require("ratchet/ratchet");
   var UI = require("ui");
   var $ = require("jquery");
+  var oup_config = require("../oup-config.js");
 
   return Ratchet.Actions.register(
     "delete-secondaryPage",
@@ -13,8 +14,9 @@ define(function(require, exports, module) {
         config.iconClass = "glyphicon glyphicon-pencil";
 
         // the location of the "overlay app"
-        config.src =
-          "https://alb.primary.prod.gcms.the-infra.com/app/delete-page";
+        // config.src =
+        //   "https://alb.primary.prod.gcms.the-infra.com/app/delete-page";
+        config.src = oup_config.overlayBaseURL + "/app/delete-page";
 
         // specify iframe width and height
         config.iframeWidth = "100%";
