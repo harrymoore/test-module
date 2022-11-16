@@ -32,6 +32,7 @@ define(function(require, exports, module) {
         // add parameters to query string
         var parameters = {};
         parameters["username"] = actionContext.observable("user").get().name;
+        parameters["branch"] = actionContext.observable("branch").get()._doc;
 
         this.appendToQueryString(config, parameters);
       }

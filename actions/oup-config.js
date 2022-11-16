@@ -4,6 +4,6 @@ define(function (require, exports, module) {
     if (window.location.host == "oup40.cloudcms.net") {
         exports.overlayBaseURL = "https://oup-overlay.herokuapp.com";
     } else if (window.location.host == "localhost.com") {
-        exports.overlayBaseURL = "http://localhost.com:2999";
+        exports.overlayBaseURL = "http://localhost.com:2200";
     }
 });
