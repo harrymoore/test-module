@@ -6,7 +6,7 @@ define(function(require, exports, module) {
 
         try {
             var url = window.location.href;
-            if (url && -1 !== url.indexOf('/tasks/') ) {
+            if (url && -1 !== url.indexOf('/tasks/') && $("a[data-item-key='content/all-journals']").length !== 0) {
                 // current view is in a task context so update the All Jounals link to use the same context
                 var task = url.substring(url.indexOf('/tasks/')+7);
                 task = task.substring(0, task.indexOf('/'));
@@ -15,7 +15,6 @@ define(function(require, exports, module) {
                 branch = branch.substring(0, branch.indexOf('/'));
                  
                 $("a[data-item-key='content/all-journals']").attr('href', $("a[data-item-key='content/all-journals']").attr('href').replace("/branches/"+branch, "/tasks/"+task));
-                console.log($("a[data-item-key='content/all-journals']").attr('href'));
             }
         } finally {}
     });
